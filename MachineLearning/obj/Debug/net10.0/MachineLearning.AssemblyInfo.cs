@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MachineLearning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b00663570f0358b7e2e3007d3bfd92033cc73d2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MachineLearning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MachineLearning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

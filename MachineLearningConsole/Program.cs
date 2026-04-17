@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MachineLearning.ML;
+
+ExemploRegressao();
+
+void ExemploRegressao()
+{
+    var trainer = new CasaModelTrainer();
+    trainer.CarregarDadosCSV(Path.Combine(AppContext.BaseDirectory, "casas_treinamento.csv"));
+}

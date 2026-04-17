@@ -1,0 +1,13 @@
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\bin\Debug\net10.0\MachineLearning.deps.json
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\bin\Debug\net10.0\MachineLearning.dll
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\bin\Debug\net10.0\MachineLearning.pdb
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.csproj.AssemblyReference.cache
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.AssemblyInfoInputs.cache
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.AssemblyInfo.cs
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.csproj.CoreCompileInputs.cache
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.sourcelink.json
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.dll
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\refint\MachineLearning.dll
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\MachineLearning.pdb
+C:\Projetos de Programação DEV\Develop4US - Treinamento\Projeto Estudo Machine Learning com CSharp\Marchine Learning Com CSharp\MachineLearning\obj\Debug\net10.0\ref\MachineLearning.dll
