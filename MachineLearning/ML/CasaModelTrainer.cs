@@ -6,12 +6,12 @@ namespace MachineLearning.ML;
 
 public class CasaModelTrainer
 {
-    private MLContext mLContext = new MLContext();
+    private MLContext mlContext = new MLContext();
     private IDataView dados;
     private ITransformer modeloTreinado;
     public void CarregarDadosCSV(string path)
     {
-        dados = mLContext.Data.LoadFromTextFile<CasaInputData>(
+        dados = mlContext.Data.LoadFromTextFile<CasaInputData>(
             path: path,
             hasHeader: true,
             separatorChar: ','
@@ -20,13 +20,17 @@ public class CasaModelTrainer
 
     public void TreinarModelo()
     {
-        var pipeline = mLContext.Transforms.Concatenate(
+        var pipeline = mlContext.Transforms.Concatenate(
             "Features",
             nameof(CasaInputData.Tamanho),
             nameof(CasaInputData.Quartos)
-        ).Append(mLContext.Regression.Trainers.Sdca(
+        )/*.Append(mlContext.Regression.Trainers.Sdca(
             labelColumnName: "Preco",
             maximumNumberOfIterations: 100
+        ));*/
+        .Append(mlContext.Regression.Trainers.LightGbm(
+            labelColumnName: "Preco",
+            numberOfIterations: 100
         ));
 
         modeloTreinado = pipeline.Fit(dados);
@@ -34,6 +38,21 @@ public class CasaModelTrainer
 
     public void SalvarModelo(string path)
     {
-        mLContext.Model.Save(modeloTreinado, dados.Schema, path);
+        mlContext.Model.Save(modeloTreinado, dados.Schema, path);
+    }
+
+    public void AvaliarModelo()
+    {
+        var previcoes = modeloTreinado.Transform(dados);
+
+        var metricas = mlContext.Regression.Evaluate(
+            data: previcoes,
+            labelColumnName: "Preco",
+            scoreColumnName: "Score"
+        );
+
+        Console.WriteLine($"MAE: {metricas.MeanAbsoluteError}");
+        Console.WriteLine($"RMSE: {metricas.RootMeanSquaredError}");
+        Console.WriteLine($"R2: {metricas.RSquared}");
     }
 }
